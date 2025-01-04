@@ -1,0 +1,52 @@
+# Pixella: AI-powered Image Understanding
+
+**Overview:**
+
+Pixella is a web application that uses the Gemini AI model to generate a brief explanation of an image based on a user-provided input prompt. The application is built using Streamlit and allows users to upload an image and input a prompt to receive a response.
+
+**Features:**
+
+Upload an image (jpg, jpeg, png)
+Input a prompt to guide the AI response
+Receive a brief explanation of the image based on the input prompt
+Display the uploaded image with a caption
+
+**Technical Details:**
+
+Built using Streamlit for the web interface
+Utilizes the Gemini AI model from Google's Generative AI library
+Supports image uploads in jpg, jpeg, and png formats
+Configured to use the Gemini API key for authentication
+
+**Usage:**
+
+Clone the repository using git clone https://github.com/pavankalyan-cmd/pixella.git
+Install the required dependencies using pip install -r requirements.txt
+Run the application by executing the Python script python app.py
+Upload an image by clicking the "Choose an image" button
+Input a prompt to guide the AI response
+Click the "Explain brief about image" button to receive a response
+The response will be displayed below the input fields
+
+**Note:**
+
+This application requires a Gemini API key to function. Please ensure you have replaced the GEMINI_API_KEY environment variable with your own API key.
+
+**Code Structure:**
+
+The code is organized into a single Python file app.py which contains the Streamlit application logic.
+
+**Dependencies:**
+
+Streamlit
+PIL
+Google's Generative AI library
+License
+This project is licensed under the MIT License. See LICENSE for details.
+
+**Contributing**
+Contributions are welcome! If you'd like to contribute to Pixella, please fork the repository and submit a pull request.
+
+**Author**
+
+pavankalyan vandanapu
